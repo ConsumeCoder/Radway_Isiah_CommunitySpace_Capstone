@@ -1,6 +1,4 @@
-This is an example README.md for your Capstone's Frontend GitHub
-
-# Capstone Project Title - Comunnity Space
+Capstone Project Title - Comunnity Space
 
 Project Summary
 
