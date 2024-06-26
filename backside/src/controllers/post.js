@@ -1,7 +1,7 @@
 const database = require("./database.js");
 
 const posts = {
-  async getAll() {
+  async getposts() {
     const dbo = await database.getDbo();
 
     return await dbo.collection("posts").find().toArray();
@@ -18,7 +18,7 @@ const posts = {
       .toArray();
   },
 
-  async create(good) {
+  async newPost(good) {
     const dbo = await database.getDbo();
 
     delete good._id;
